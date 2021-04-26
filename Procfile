@@ -1,1 +1,1 @@
-web: python -u -m gupb
+worker: python -u -m gupb
