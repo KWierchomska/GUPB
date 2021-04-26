@@ -1,0 +1,725 @@
+2021-04-26 13:28:01,304 | INFO | runner.run:33 | Starting game number 1.
+2021-04-26 13:28:01,305 | DEBUG | runner.run_game:39 | Randomly picked arena: island.
+2021-04-26 13:28:01,371 | DEBUG | arenas.spawn_menhir:119 | Menhir spawned at Coords(x=39, y=18).
+2021-04-26 13:28:01,461 | DEBUG | games._spawn_champions:67 | Champion for IHaveNoIdeaWhatImDoingController spawned at Coords(x=40, y=39) -> Facing.LEFT.
+2021-04-26 13:28:01,463 | DEBUG | games._spawn_champions:67 | Champion for Krowa1233ControllerKrowka spawned at Coords(x=60, y=74) -> Facing.RIGHT.
+2021-04-26 13:28:01,463 | DEBUG | games._spawn_champions:67 | Champion for BBBotControllerBartek spawned at Coords(x=71, y=43) -> Facing.DOWN.
+2021-04-26 13:28:01,464 | DEBUG | games._spawn_champions:67 | Champion for BotElkaZ nami na pewno zdasz spawned at Coords(x=67, y=10) -> Facing.RIGHT.
+2021-04-26 13:28:01,464 | DEBUG | games._spawn_champions:67 | Champion for TupTupBot spawned at Coords(x=36, y=51) -> Facing.DOWN.
+2021-04-26 13:28:01,465 | DEBUG | games._spawn_champions:67 | Champion for ClaretWolfController spawned at Coords(x=44, y=74) -> Facing.UP.
+2021-04-26 13:28:01,503 | DEBUG | games._environment_action:75 | Starting episode 1.
+2021-04-26 13:28:01,596 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:01,597 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:01,690 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.TURN_LEFT.
+2021-04-26 13:28:01,690 | DEBUG | characters.turn_left:68 | Champion TupTupBot is now facing Facing.RIGHT.
+2021-04-26 13:28:01,747 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:01,748 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:01,789 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:01,789 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:01,841 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:01,841 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.UP.
+2021-04-26 13:28:02,025 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:02,026 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=39, y=39).
+2021-04-26 13:28:02,074 | DEBUG | games._environment_action:75 | Starting episode 2.
+2021-04-26 13:28:02,138 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:02,139 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.RIGHT.
+2021-04-26 13:28:02,196 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:02,197 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=37, y=51).
+2021-04-26 13:28:02,330 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:02,331 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:02,368 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:02,368 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:02,407 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:02,407 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=60, y=73).
+2021-04-26 13:28:02,570 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:02,570 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=38, y=39).
+2021-04-26 13:28:02,601 | DEBUG | games._environment_action:75 | Starting episode 3.
+2021-04-26 13:28:02,651 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:02,651 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=45, y=74).
+2021-04-26 13:28:02,686 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:02,686 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=38, y=51).
+2021-04-26 13:28:02,744 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:02,745 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:02,798 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:02,798 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:02,860 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:02,861 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=60, y=72).
+2021-04-26 13:28:03,042 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:03,042 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=37, y=39).
+2021-04-26 13:28:03,073 | DEBUG | games._environment_action:75 | Starting episode 4.
+2021-04-26 13:28:03,110 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:03,111 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:03,160 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:03,160 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=51).
+2021-04-26 13:28:03,192 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:03,192 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:03,242 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.ATTACK.
+2021-04-26 13:28:03,243 | DEBUG | characters.attack:81 | Champion BBBotControllerBartek attacked with its knife.
+2021-04-26 13:28:03,281 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:03,282 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.RIGHT.
+2021-04-26 13:28:03,438 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:03,438 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=39).
+2021-04-26 13:28:03,469 | DEBUG | games._environment_action:75 | Starting episode 5.
+2021-04-26 13:28:03,469 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 141.
+2021-04-26 13:28:03,518 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:03,519 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:03,555 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.TURN_LEFT.
+2021-04-26 13:28:03,555 | DEBUG | characters.turn_left:68 | Champion TupTupBot is now facing Facing.UP.
+2021-04-26 13:28:03,591 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:03,591 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:03,637 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:03,638 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:03,676 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:03,676 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=61, y=72).
+2021-04-26 13:28:03,847 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.TURN_LEFT.
+2021-04-26 13:28:03,848 | DEBUG | characters.turn_left:68 | Champion IHaveNoIdeaWhatImDoingController is now facing Facing.DOWN.
+2021-04-26 13:28:03,894 | DEBUG | games._environment_action:75 | Starting episode 6.
+2021-04-26 13:28:03,954 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:03,955 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:03,993 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:03,993 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=50).
+2021-04-26 13:28:04,086 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:04,086 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:04,136 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:04,137 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:04,175 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:04,176 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.DOWN.
+2021-04-26 13:28:04,405 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:04,405 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=40).
+2021-04-26 13:28:04,446 | DEBUG | games._environment_action:75 | Starting episode 7.
+2021-04-26 13:28:04,478 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:04,479 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.LEFT.
+2021-04-26 13:28:04,521 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:04,522 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=49).
+2021-04-26 13:28:04,569 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:04,569 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=66, y=10).
+2021-04-26 13:28:04,601 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:04,601 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:04,645 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:04,645 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.RIGHT.
+2021-04-26 13:28:04,798 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:04,798 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=41).
+2021-04-26 13:28:04,838 | DEBUG | games._environment_action:75 | Starting episode 8.
+2021-04-26 13:28:04,880 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:04,880 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=44, y=74).
+2021-04-26 13:28:04,920 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:04,920 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=48).
+2021-04-26 13:28:04,975 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:04,976 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:05,037 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_LEFT.
+2021-04-26 13:28:05,038 | DEBUG | characters.turn_left:68 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:05,088 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:05,088 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.UP.
+2021-04-26 13:28:05,247 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:05,248 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=42).
+2021-04-26 13:28:05,280 | DEBUG | games._environment_action:75 | Starting episode 9.
+2021-04-26 13:28:05,371 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:05,372 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=43, y=74).
+2021-04-26 13:28:05,408 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:05,408 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=47).
+2021-04-26 13:28:05,450 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:05,450 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:05,486 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:05,486 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:05,535 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:05,535 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.RIGHT.
+2021-04-26 13:28:05,692 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:05,693 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=43).
+2021-04-26 13:28:05,730 | DEBUG | games._environment_action:75 | Starting episode 10.
+2021-04-26 13:28:05,730 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 140.
+2021-04-26 13:28:05,783 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:05,783 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:05,825 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:05,826 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=46).
+2021-04-26 13:28:05,867 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:05,867 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:05,906 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:05,906 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:05,957 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:05,958 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=62, y=72).
+2021-04-26 13:28:06,133 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:06,133 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=44).
+2021-04-26 13:28:06,177 | DEBUG | games._environment_action:75 | Starting episode 11.
+2021-04-26 13:28:06,218 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:06,219 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:06,267 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:06,268 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=45).
+2021-04-26 13:28:06,317 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:06,317 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:06,358 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:06,359 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:06,395 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:06,396 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.UP.
+2021-04-26 13:28:06,567 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:06,567 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=45).
+2021-04-26 13:28:06,595 | DEBUG | games._environment_action:75 | Starting episode 12.
+2021-04-26 13:28:06,639 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:06,639 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:06,675 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:06,675 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=44).
+2021-04-26 13:28:06,722 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:06,722 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=65, y=10).
+2021-04-26 13:28:06,770 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_LEFT.
+2021-04-26 13:28:06,770 | DEBUG | characters.turn_left:68 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:06,873 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:06,873 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.RIGHT.
+2021-04-26 13:28:07,028 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:07,028 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=46).
+2021-04-26 13:28:07,061 | DEBUG | games._environment_action:75 | Starting episode 13.
+2021-04-26 13:28:07,099 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:07,099 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.RIGHT.
+2021-04-26 13:28:07,149 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:07,149 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=43).
+2021-04-26 13:28:07,194 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:07,195 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:07,253 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:07,254 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:07,305 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:07,305 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.UP.
+2021-04-26 13:28:07,467 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:07,467 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=47).
+2021-04-26 13:28:07,495 | DEBUG | games._environment_action:75 | Starting episode 14.
+2021-04-26 13:28:07,551 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:07,551 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=44, y=74).
+2021-04-26 13:28:07,592 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:07,592 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=42).
+2021-04-26 13:28:07,634 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:07,634 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:07,676 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:07,676 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:07,720 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:07,722 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.LEFT.
+2021-04-26 13:28:07,933 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:07,934 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=48).
+2021-04-26 13:28:07,970 | DEBUG | games._environment_action:75 | Starting episode 15.
+2021-04-26 13:28:07,970 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 139.
+2021-04-26 13:28:08,032 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:08,032 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:08,071 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:08,071 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=41).
+2021-04-26 13:28:08,105 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:08,105 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:08,152 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:08,153 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:08,196 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:08,197 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.DOWN.
+2021-04-26 13:28:08,466 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:08,466 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=49).
+2021-04-26 13:28:08,496 | DEBUG | games._environment_action:75 | Starting episode 16.
+2021-04-26 13:28:08,557 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:08,558 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=45, y=74).
+2021-04-26 13:28:08,594 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:08,595 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=40).
+2021-04-26 13:28:08,652 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:08,652 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:08,690 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.ATTACK.
+2021-04-26 13:28:08,691 | DEBUG | characters.attack:81 | Champion BBBotControllerBartek attacked with its knife.
+2021-04-26 13:28:08,734 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:08,734 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.LEFT.
+2021-04-26 13:28:08,909 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:08,909 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=50).
+2021-04-26 13:28:09,484 | DEBUG | games._environment_action:75 | Starting episode 17.
+2021-04-26 13:28:09,561 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:09,562 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:09,606 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:09,607 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=39).
+2021-04-26 13:28:09,658 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:09,659 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=64, y=10).
+2021-04-26 13:28:09,704 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:09,704 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:09,757 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:09,757 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.DOWN.
+2021-04-26 13:28:09,927 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:09,927 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=51).
+2021-04-26 13:28:09,966 | DEBUG | games._environment_action:75 | Starting episode 18.
+2021-04-26 13:28:10,005 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:10,005 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=46, y=74).
+2021-04-26 13:28:10,050 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:10,050 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=38).
+2021-04-26 13:28:10,096 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:10,096 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:10,140 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:10,141 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:10,175 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:10,175 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=62, y=73).
+2021-04-26 13:28:10,332 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:10,333 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=52).
+2021-04-26 13:28:10,368 | DEBUG | games._environment_action:75 | Starting episode 19.
+2021-04-26 13:28:10,460 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:10,460 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:10,498 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:10,498 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=37).
+2021-04-26 13:28:10,539 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:10,540 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:10,582 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:10,583 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:10,635 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:10,635 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.RIGHT.
+2021-04-26 13:28:10,814 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:10,814 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=53).
+2021-04-26 13:28:11,045 | DEBUG | games._environment_action:75 | Starting episode 20.
+2021-04-26 13:28:11,045 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 138.
+2021-04-26 13:28:11,086 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:11,087 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.RIGHT.
+2021-04-26 13:28:11,121 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:11,121 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=36).
+2021-04-26 13:28:11,168 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:11,168 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:11,203 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.STEP_FORWARD.
+2021-04-26 13:28:11,203 | DEBUG | arenas.step_forward:108 | Champion BBBotControllerBartek entered tile Coords(x=70, y=43).
+2021-04-26 13:28:11,257 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:11,257 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=63, y=73).
+2021-04-26 13:28:11,414 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:11,415 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=54).
+2021-04-26 13:28:11,456 | DEBUG | games._environment_action:75 | Starting episode 21.
+2021-04-26 13:28:11,495 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:11,496 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:11,539 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:11,540 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=35).
+2021-04-26 13:28:11,587 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:11,587 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:11,625 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:11,626 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:11,672 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:11,673 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.DOWN.
+2021-04-26 13:28:11,860 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:11,861 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=55).
+2021-04-26 13:28:11,888 | DEBUG | games._environment_action:75 | Starting episode 22.
+2021-04-26 13:28:11,936 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:11,936 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.UP.
+2021-04-26 13:28:11,977 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:11,977 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=34).
+2021-04-26 13:28:12,016 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:12,016 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=63, y=10).
+2021-04-26 13:28:12,066 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:12,066 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:12,102 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:12,102 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.RIGHT.
+2021-04-26 13:28:12,310 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:12,310 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=56).
+2021-04-26 13:28:12,350 | DEBUG | games._environment_action:75 | Starting episode 23.
+2021-04-26 13:28:12,399 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:12,400 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=46, y=73).
+2021-04-26 13:28:12,452 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:12,453 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=33).
+2021-04-26 13:28:12,495 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:12,496 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:12,544 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:12,545 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:12,584 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:12,584 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.DOWN.
+2021-04-26 13:28:12,734 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:12,734 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=57).
+2021-04-26 13:28:12,770 | DEBUG | games._environment_action:75 | Starting episode 24.
+2021-04-26 13:28:12,815 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:12,816 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=46, y=72).
+2021-04-26 13:28:12,875 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:12,876 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=32).
+2021-04-26 13:28:12,921 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:12,922 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:12,971 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.ATTACK.
+2021-04-26 13:28:12,972 | DEBUG | characters.attack:81 | Champion BBBotControllerBartek attacked with its knife.
+2021-04-26 13:28:13,010 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:13,010 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.RIGHT.
+2021-04-26 13:28:13,174 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:13,175 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=58).
+2021-04-26 13:28:13,203 | DEBUG | games._environment_action:75 | Starting episode 25.
+2021-04-26 13:28:13,204 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 137.
+2021-04-26 13:28:13,264 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:13,265 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:13,298 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:13,298 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=31).
+2021-04-26 13:28:13,340 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:13,341 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:13,386 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:13,386 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:13,429 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:13,429 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.DOWN.
+2021-04-26 13:28:13,584 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:13,584 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=59).
+2021-04-26 13:28:13,611 | DEBUG | games._environment_action:75 | Starting episode 26.
+2021-04-26 13:28:13,664 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:13,665 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=46, y=71).
+2021-04-26 13:28:13,695 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:13,696 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=30).
+2021-04-26 13:28:13,796 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:13,796 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:13,835 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:13,835 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:13,880 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:13,881 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=63, y=74).
+2021-04-26 13:28:14,070 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:14,070 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=60).
+2021-04-26 13:28:14,098 | DEBUG | games._environment_action:75 | Starting episode 27.
+2021-04-26 13:28:14,147 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:14,148 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:14,184 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:14,184 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=29).
+2021-04-26 13:28:14,222 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:14,222 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=62, y=10).
+2021-04-26 13:28:14,271 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:14,271 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:14,306 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_LEFT.
+2021-04-26 13:28:14,307 | DEBUG | characters.turn_left:68 | Champion Krowa1233ControllerKrowka is now facing Facing.RIGHT.
+2021-04-26 13:28:14,471 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:14,471 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=61).
+2021-04-26 13:28:14,500 | DEBUG | games._environment_action:75 | Starting episode 28.
+2021-04-26 13:28:14,551 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:14,551 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.LEFT.
+2021-04-26 13:28:14,587 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:14,587 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=28).
+2021-04-26 13:28:14,635 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:14,636 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:14,677 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_LEFT.
+2021-04-26 13:28:14,678 | DEBUG | characters.turn_left:68 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:14,713 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:14,714 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=64, y=74).
+2021-04-26 13:28:14,869 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:14,869 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=62).
+2021-04-26 13:28:14,900 | DEBUG | games._environment_action:75 | Starting episode 29.
+2021-04-26 13:28:14,953 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:14,953 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:14,985 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:14,986 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=27).
+2021-04-26 13:28:15,016 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,017 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:15,068 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,068 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:15,116 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,116 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.DOWN.
+2021-04-26 13:28:15,323 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:15,323 | DEBUG | tiles.enter:64 | Champion IHaveNoIdeaWhatImDoingController picked up a bow.
+2021-04-26 13:28:15,324 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=36, y=63).
+2021-04-26 13:28:15,363 | DEBUG | games._environment_action:75 | Starting episode 30.
+2021-04-26 13:28:15,364 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 136.
+2021-04-26 13:28:15,411 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,411 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.LEFT.
+2021-04-26 13:28:15,456 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:15,457 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=26).
+2021-04-26 13:28:15,493 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,493 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:15,530 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,530 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:15,576 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:15,577 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=64, y=75).
+2021-04-26 13:28:15,666 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.TURN_LEFT.
+2021-04-26 13:28:15,667 | DEBUG | characters.turn_left:68 | Champion IHaveNoIdeaWhatImDoingController is now facing Facing.RIGHT.
+2021-04-26 13:28:15,695 | DEBUG | games._environment_action:75 | Starting episode 31.
+2021-04-26 13:28:15,735 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:15,735 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:15,778 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:15,778 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=25).
+2021-04-26 13:28:15,825 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,826 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:15,877 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,878 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:15,911 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:15,911 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.LEFT.
+2021-04-26 13:28:16,006 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,006 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=37, y=63).
+2021-04-26 13:28:16,039 | DEBUG | games._environment_action:75 | Starting episode 32.
+2021-04-26 13:28:16,085 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:16,085 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:16,118 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,118 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=24).
+2021-04-26 13:28:16,178 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,179 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=61, y=10).
+2021-04-26 13:28:16,225 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_LEFT.
+2021-04-26 13:28:16,225 | DEBUG | characters.turn_left:68 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:16,280 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,280 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=63, y=75).
+2021-04-26 13:28:16,376 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,377 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=38, y=63).
+2021-04-26 13:28:16,409 | DEBUG | games._environment_action:75 | Starting episode 33.
+2021-04-26 13:28:16,465 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:16,465 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:16,496 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,496 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=23).
+2021-04-26 13:28:16,540 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:16,541 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:16,586 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:16,587 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:16,634 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,635 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=62, y=75).
+2021-04-26 13:28:16,746 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,746 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=39, y=63).
+2021-04-26 13:28:16,780 | DEBUG | games._environment_action:75 | Starting episode 34.
+2021-04-26 13:28:16,869 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:16,870 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:16,901 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:16,901 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=22).
+2021-04-26 13:28:16,938 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:16,939 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:16,977 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:16,977 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:17,021 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:17,021 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=61, y=75).
+2021-04-26 13:28:17,122 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.TURN_LEFT.
+2021-04-26 13:28:17,123 | DEBUG | characters.turn_left:68 | Champion IHaveNoIdeaWhatImDoingController is now facing Facing.UP.
+2021-04-26 13:28:17,163 | DEBUG | games._environment_action:75 | Starting episode 35.
+2021-04-26 13:28:17,163 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 135.
+2021-04-26 13:28:17,213 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:17,213 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:17,255 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:17,256 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=21).
+2021-04-26 13:28:17,307 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:17,308 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:17,362 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:17,362 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:17,402 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:17,402 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=60, y=75).
+2021-04-26 13:28:17,510 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.ATTACK.
+2021-04-26 13:28:17,511 | DEBUG | characters.attack:81 | Champion IHaveNoIdeaWhatImDoingController attacked with its bow.
+2021-04-26 13:28:17,526 | DEBUG | effects.instant:72 | Champion TupTupBot was damaged by weapon cut.
+2021-04-26 13:28:17,527 | DEBUG | characters.damage:90 | Champion TupTupBot took 1 wounds, it has now 4 hp left.
+2021-04-26 13:28:17,544 | DEBUG | games._environment_action:75 | Starting episode 36.
+2021-04-26 13:28:17,583 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:17,584 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.LEFT.
+2021-04-26 13:28:17,618 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:17,618 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=20).
+2021-04-26 13:28:17,673 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:17,673 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:17,707 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.ATTACK.
+2021-04-26 13:28:17,708 | DEBUG | characters.attack:81 | Champion BBBotControllerBartek attacked with its knife.
+2021-04-26 13:28:17,761 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:17,761 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=59, y=75).
+2021-04-26 13:28:17,859 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.ATTACK.
+2021-04-26 13:28:17,859 | DEBUG | characters.attack:81 | Champion IHaveNoIdeaWhatImDoingController attacked with its bow.
+2021-04-26 13:28:17,874 | DEBUG | effects.instant:72 | Champion TupTupBot was damaged by weapon cut.
+2021-04-26 13:28:17,874 | DEBUG | characters.damage:90 | Champion TupTupBot took 1 wounds, it has now 3 hp left.
+2021-04-26 13:28:17,888 | DEBUG | games._environment_action:75 | Starting episode 37.
+2021-04-26 13:28:17,932 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:17,932 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:17,975 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.STEP_FORWARD.
+2021-04-26 13:28:17,975 | DEBUG | arenas.step_forward:108 | Champion TupTupBot entered tile Coords(x=39, y=19).
+2021-04-26 13:28:18,013 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:18,014 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=60, y=10).
+2021-04-26 13:28:18,057 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:18,057 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:18,098 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:18,098 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=58, y=75).
+2021-04-26 13:28:18,240 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.ATTACK.
+2021-04-26 13:28:18,240 | DEBUG | characters.attack:81 | Champion IHaveNoIdeaWhatImDoingController attacked with its bow.
+2021-04-26 13:28:18,264 | DEBUG | effects.instant:72 | Champion TupTupBot was damaged by weapon cut.
+2021-04-26 13:28:18,265 | DEBUG | characters.damage:90 | Champion TupTupBot took 1 wounds, it has now 2 hp left.
+2021-04-26 13:28:18,279 | DEBUG | games._environment_action:75 | Starting episode 38.
+2021-04-26 13:28:18,312 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:18,313 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=46, y=72).
+2021-04-26 13:28:18,349 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.TURN_RIGHT.
+2021-04-26 13:28:18,350 | DEBUG | characters.turn_right:73 | Champion TupTupBot is now facing Facing.RIGHT.
+2021-04-26 13:28:18,408 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:18,408 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:18,466 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:18,466 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:18,511 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:18,511 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=57, y=75).
+2021-04-26 13:28:18,608 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.ATTACK.
+2021-04-26 13:28:18,609 | DEBUG | characters.attack:81 | Champion IHaveNoIdeaWhatImDoingController attacked with its bow.
+2021-04-26 13:28:18,622 | DEBUG | effects.instant:72 | Champion TupTupBot was damaged by weapon cut.
+2021-04-26 13:28:18,623 | DEBUG | characters.damage:90 | Champion TupTupBot took 1 wounds, it has now 1 hp left.
+2021-04-26 13:28:18,640 | DEBUG | games._environment_action:75 | Starting episode 39.
+2021-04-26 13:28:18,687 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:18,687 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.RIGHT.
+2021-04-26 13:28:18,725 | DEBUG | characters.act:47 | Champion TupTupBot picked action Action.TURN_RIGHT.
+2021-04-26 13:28:18,725 | DEBUG | characters.turn_right:73 | Champion TupTupBot is now facing Facing.DOWN.
+2021-04-26 13:28:18,767 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:18,767 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:18,797 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:18,798 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:18,847 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:18,848 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=56, y=75).
+2021-04-26 13:28:18,956 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.ATTACK.
+2021-04-26 13:28:18,956 | DEBUG | characters.attack:81 | Champion IHaveNoIdeaWhatImDoingController attacked with its bow.
+2021-04-26 13:28:18,974 | DEBUG | effects.instant:72 | Champion TupTupBot was damaged by weapon cut.
+2021-04-26 13:28:18,975 | DEBUG | characters.damage:90 | Champion TupTupBot took 1 wounds, it has now 0 hp left.
+2021-04-26 13:28:18,975 | DEBUG | characters.die:98 | Champion TupTupBot died.
+2021-04-26 13:28:18,990 | DEBUG | games._environment_action:75 | Starting episode 40.
+2021-04-26 13:28:18,991 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 134.
+2021-04-26 13:28:19,044 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:19,045 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:19,086 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:19,086 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:19,126 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:19,127 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:19,177 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:19,177 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=55, y=75).
+2021-04-26 13:28:19,369 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:19,369 | DEBUG | characters.turn_right:73 | Champion IHaveNoIdeaWhatImDoingController is now facing Facing.RIGHT.
+2021-04-26 13:28:19,405 | DEBUG | games._environment_action:75 | Starting episode 41.
+2021-04-26 13:28:19,442 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:19,443 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:19,512 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:19,512 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=60, y=11).
+2021-04-26 13:28:19,562 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:19,563 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:19,608 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:19,608 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=54, y=75).
+2021-04-26 13:28:19,760 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:19,760 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=63).
+2021-04-26 13:28:19,789 | DEBUG | games._environment_action:75 | Starting episode 42.
+2021-04-26 13:28:19,823 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:19,824 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.RIGHT.
+2021-04-26 13:28:19,879 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:19,879 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:19,915 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:19,916 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:19,970 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:19,970 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=53, y=75).
+2021-04-26 13:28:20,113 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.TURN_LEFT.
+2021-04-26 13:28:20,114 | DEBUG | characters.turn_left:68 | Champion IHaveNoIdeaWhatImDoingController is now facing Facing.UP.
+2021-04-26 13:28:20,146 | DEBUG | games._environment_action:75 | Starting episode 43.
+2021-04-26 13:28:20,189 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:20,189 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.UP.
+2021-04-26 13:28:20,230 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:20,230 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:20,272 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:20,273 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:20,311 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:20,312 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=52, y=75).
+2021-04-26 13:28:20,458 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:20,458 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=62).
+2021-04-26 13:28:20,494 | DEBUG | games._environment_action:75 | Starting episode 44.
+2021-04-26 13:28:20,533 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:20,534 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.LEFT.
+2021-04-26 13:28:20,588 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:20,589 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:20,646 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.ATTACK.
+2021-04-26 13:28:20,646 | DEBUG | characters.attack:81 | Champion BBBotControllerBartek attacked with its knife.
+2021-04-26 13:28:20,739 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:20,740 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=51, y=75).
+2021-04-26 13:28:20,886 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:20,887 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=61).
+2021-04-26 13:28:20,918 | DEBUG | games._environment_action:75 | Starting episode 45.
+2021-04-26 13:28:20,918 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 133.
+2021-04-26 13:28:20,981 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:20,982 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=45, y=72).
+2021-04-26 13:28:21,016 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:21,016 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:21,062 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:21,062 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:21,103 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:21,104 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=50, y=75).
+2021-04-26 13:28:21,254 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:21,255 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=60).
+2021-04-26 13:28:21,286 | DEBUG | games._environment_action:75 | Starting episode 46.
+2021-04-26 13:28:21,324 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:21,325 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=44, y=72).
+2021-04-26 13:28:21,380 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:21,380 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:21,412 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:21,413 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:21,462 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:21,462 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=49, y=75).
+2021-04-26 13:28:21,602 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:21,603 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=59).
+2021-04-26 13:28:21,631 | DEBUG | games._environment_action:75 | Starting episode 47.
+2021-04-26 13:28:21,688 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:21,688 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:21,746 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:21,746 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=59, y=11).
+2021-04-26 13:28:21,795 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:21,795 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:21,839 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:21,839 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=48, y=75).
+2021-04-26 13:28:22,032 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:22,033 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=58).
+2021-04-26 13:28:22,075 | DEBUG | games._environment_action:75 | Starting episode 48.
+2021-04-26 13:28:22,116 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:22,116 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.LEFT.
+2021-04-26 13:28:22,169 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:22,169 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:22,202 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_LEFT.
+2021-04-26 13:28:22,202 | DEBUG | characters.turn_left:68 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:22,240 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:22,241 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=47, y=75).
+2021-04-26 13:28:22,390 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:22,391 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=57).
+2021-04-26 13:28:22,423 | DEBUG | games._environment_action:75 | Starting episode 49.
+2021-04-26 13:28:22,473 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:22,473 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:22,506 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:22,506 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:22,542 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:22,543 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:22,594 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:22,594 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=46, y=75).
+2021-04-26 13:28:22,736 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:22,737 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=56).
+2021-04-26 13:28:22,779 | DEBUG | games._environment_action:75 | Starting episode 50.
+2021-04-26 13:28:22,780 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 132.
+2021-04-26 13:28:22,838 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:22,839 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=44, y=73).
+2021-04-26 13:28:22,893 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:22,893 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:22,924 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:22,924 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:22,971 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:22,971 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=45, y=75).
+2021-04-26 13:28:23,111 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:23,111 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=55).
+2021-04-26 13:28:23,139 | DEBUG | games._environment_action:75 | Starting episode 51.
+2021-04-26 13:28:23,179 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_RIGHT.
+2021-04-26 13:28:23,180 | DEBUG | characters.turn_right:73 | Champion ClaretWolfController is now facing Facing.LEFT.
+2021-04-26 13:28:23,222 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:23,222 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.LEFT.
+2021-04-26 13:28:23,268 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:23,268 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:23,309 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.TURN_RIGHT.
+2021-04-26 13:28:23,309 | DEBUG | characters.turn_right:73 | Champion Krowa1233ControllerKrowka is now facing Facing.UP.
+2021-04-26 13:28:23,500 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:23,501 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=54).
+2021-04-26 13:28:23,533 | DEBUG | games._environment_action:75 | Starting episode 52.
+2021-04-26 13:28:23,585 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:23,586 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.DOWN.
+2021-04-26 13:28:23,625 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:23,626 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=58, y=11).
+2021-04-26 13:28:23,673 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:23,674 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:23,710 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:23,710 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=45, y=74).
+2021-04-26 13:28:23,867 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:23,867 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=53).
+2021-04-26 13:28:23,904 | DEBUG | games._environment_action:75 | Starting episode 53.
+2021-04-26 13:28:23,964 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.TURN_LEFT.
+2021-04-26 13:28:23,964 | DEBUG | characters.turn_left:68 | Champion ClaretWolfController is now facing Facing.RIGHT.
+2021-04-26 13:28:24,021 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:24,021 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.UP.
+2021-04-26 13:28:24,072 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:24,073 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.LEFT.
+2021-04-26 13:28:24,109 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:24,110 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=45, y=73).
+2021-04-26 13:28:24,278 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:24,278 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=52).
+2021-04-26 13:28:24,309 | DEBUG | games._environment_action:75 | Starting episode 54.
+2021-04-26 13:28:24,348 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:24,391 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:24,391 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.RIGHT.
+2021-04-26 13:28:24,426 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:24,426 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.UP.
+2021-04-26 13:28:24,480 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:24,480 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=45, y=72).
+2021-04-26 13:28:24,631 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:24,631 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=51).
+2021-04-26 13:28:24,671 | DEBUG | games._environment_action:75 | Starting episode 55.
+2021-04-26 13:28:24,671 | DEBUG | arenas.increase_mist:125 | Radius of mist-free space decreased to 131.
+2021-04-26 13:28:24,720 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.ATTACK.
+2021-04-26 13:28:24,720 | DEBUG | characters.attack:81 | Champion ClaretWolfController attacked with its knife.
+2021-04-26 13:28:24,770 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.TURN_RIGHT.
+2021-04-26 13:28:24,770 | DEBUG | characters.turn_right:73 | Champion BotElkaZ nami na pewno zdasz is now facing Facing.DOWN.
+2021-04-26 13:28:24,811 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:24,811 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.RIGHT.
+2021-04-26 13:28:24,864 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:24,865 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=45, y=71).
+2021-04-26 13:28:25,084 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:25,085 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=50).
+2021-04-26 13:28:25,124 | DEBUG | games._environment_action:75 | Starting episode 56.
+2021-04-26 13:28:25,175 | DEBUG | characters.act:47 | Champion ClaretWolfController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:25,175 | DEBUG | arenas.step_forward:108 | Champion ClaretWolfController entered tile Coords(x=45, y=73).
+2021-04-26 13:28:25,218 | DEBUG | characters.act:47 | Champion BotElkaZ nami na pewno zdasz picked action Action.STEP_FORWARD.
+2021-04-26 13:28:25,218 | DEBUG | arenas.step_forward:108 | Champion BotElkaZ nami na pewno zdasz entered tile Coords(x=58, y=12).
+2021-04-26 13:28:25,256 | DEBUG | characters.act:47 | Champion BBBotControllerBartek picked action Action.TURN_RIGHT.
+2021-04-26 13:28:25,257 | DEBUG | characters.turn_right:73 | Champion BBBotControllerBartek is now facing Facing.DOWN.
+2021-04-26 13:28:25,304 | DEBUG | characters.act:47 | Champion Krowa1233ControllerKrowka picked action Action.STEP_FORWARD.
+2021-04-26 13:28:25,304 | DEBUG | arenas.step_forward:108 | Champion Krowa1233ControllerKrowka entered tile Coords(x=45, y=70).
+2021-04-26 13:28:25,440 | DEBUG | characters.act:47 | Champion IHaveNoIdeaWhatImDoingController picked action Action.STEP_FORWARD.
+2021-04-26 13:28:25,441 | DEBUG | arenas.step_forward:108 | Champion IHaveNoIdeaWhatImDoingController entered tile Coords(x=40, y=49).
