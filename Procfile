@@ -1,1 +1,1 @@
-web: python -m gupb
+web: python -u -m gupb
