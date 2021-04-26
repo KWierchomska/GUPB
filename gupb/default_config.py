@@ -17,7 +17,7 @@ CONFIGURATION = {
         krowa123.Krowa1233Controller("Krowka"),
         tup_tup.TupTupController('Bot'),
     ],
-    'visualise': True,
+    'visualise': False,
     'show_sight': None,
     'runs_no': 1,
 }
